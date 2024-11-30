@@ -514,7 +514,7 @@
     y-protocols "^1.0.6"
     yjs "^13.6.11"
 
-"@keystatic/next@^0.5.42":
+"@keystatic/next@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@keystatic/next/-/next-5.0.1.tgz#f9ccccb90c784c333b52b0a290a73c67c43e99b5"
   integrity sha512-KxlwYU54zAgsroZurDQdfvaquJX5s/7jWJMZrlu10JyAWDDpbJe8wT9z7ig3UYQYizlihM9LY7YKrfwjWti0nw==
