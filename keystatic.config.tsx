@@ -19,7 +19,12 @@ const storage: LocalConfig["storage"] | GitHubConfig["storage"] =
       };
 
 export default config({
-  storage,
+  storage: {
+    kind: 'cloud',
+  },
+  cloud: {
+    project: 'aqib/aqibgatoo-test',
+  },
   singletons: {
     landingPage: singleton({
       label: "Landing Page",
