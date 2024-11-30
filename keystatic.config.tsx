@@ -3,8 +3,8 @@ import {
   config,
   fields,
   singleton,
-  LocalConfig,
-  GitHubConfig,
+  type LocalConfig,
+  type GitHubConfig,
 } from "@keystatic/core";
 
 const storage: LocalConfig["storage"] | GitHubConfig["storage"] =
